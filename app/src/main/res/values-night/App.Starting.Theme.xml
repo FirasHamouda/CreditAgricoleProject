@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="App.Starting.Theme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="android:windowSplashScreenAnimationDuration">2000</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ca_splashscreen</item>
+        <item name="postSplashScreenTheme">@style/Theme.CreditAgricolProject</item>
+    </style>
+</resources>

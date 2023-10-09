@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CreditAgricolProject" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="App.Starting.Theme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ca_splashscreen</item>
+        <item name="postSplashScreenTheme">@style/Theme.CreditAgricolProject</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CreditAgricolProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+</resources>
